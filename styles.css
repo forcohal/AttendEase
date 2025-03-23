@@ -1,0 +1,106 @@
+body {
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 50vh;
+    max-height: 100vh; 
+    overflow-y: auto;
+    background: #ffeeddac;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4vh 8vh #0077b6;
+    text-align: center; 
+}
+
+h1 {
+    font-family: Noto Sans;
+    color: #33415c;
+    text-align: center;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #33415cb0;
+    transition: 0.3s;
+    font-family: Noto Sans;
+    display: block;
+    margin: 2vh auto;
+}
+
+.btn:hover {
+    background-color: #5603ad;
+}
+
+input {
+    
+    width: 25vh;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #90e0ef;
+    outline: none;
+    background: transparent;
+    display: block;
+    margin: 2vh auto;
+}
+
+.containerStudentList{
+    width: 100vh;
+    max-height: 100vh; 
+    overflow-y: auto;
+    background: #ffeeddac;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4vh 8vh #0077b6;
+    text-align: center;
+}
+.text{
+    text-decoration: underline;
+}
+
+.listBox{
+    font-family: Noto Sans;
+    color: #33415c;
+    text-align: left;
+    font-size: 3vh;
+}
+
+.update{
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #33415cb0;
+    transition: 0.3s;
+    font-family: Noto Sans;
+    display: block;
+    margin: 2vh auto;
+}
+
+.update:hover {
+    background-color: #5603ad;
+}
+
+button {
+    min-width: 25vh;
+}
