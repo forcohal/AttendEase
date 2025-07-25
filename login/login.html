@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance App</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class = "signUp">
+            <h1>Sign up</h1>
+
+            <form id = "signUpForm">
+                <label>
+                    Name:
+                    <input type="text" id="name" name="name" required>
+                </label>
+                
+                <label>
+                    Email id:
+                    <input type="email" id="email" name="email" required>
+                </label>
+
+                <label>
+                    gender:
+                    <select id="gender">
+                        <option value = "male">Male</option>
+                        <option value = "female">Female</option>
+                        <option value = "other">Other</option>
+                    </select>
+                </label>
+
+                <label>Date of Birth:
+                    <input type="date" id="dob" name="dob" required>
+                </label>
+            
+                <label>
+                    Password:
+                    <input type="password" id="password" name="password" required>
+                </label>
+
+                <button type="submit" id="signUpSubmit">Signup</button>    
+            </form>
+        </div>
+        <div class = "SignIn">
+            <h1>sign in</h1>
+            <form id="signInForm">
+                <label>
+                    Email id:
+                    <input type="email" id="signInEmail" name="signInEmail" required>
+                </label>
+
+                <label>
+                    Password:
+                    <input type="password" id="signInPassword" name="signInPassword" required>
+                </label>
+
+                <button type="submit" id="signInSubmit">Sign In</button>
+        </div>
+    </div>    
+    <script type="module" defer src="login.js"></script>
+</body>
+</html>
